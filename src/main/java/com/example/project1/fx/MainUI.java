@@ -64,7 +64,7 @@ public class MainUI extends Thread {
                     + "\n -> The expected value: " + algorithm.getExpectedValue()
                     + "\n -> The values that give the result: \n" + algorithm.printSequence());
             TA.setPadding(new Insets(10,10,10,10));
-            TA.setStyle("-fx-text-fill: #54494b; -fx-background-color: #ffffff; -fx-font-family: Georgia; ");
+            TA.setStyle("-fx-text-fill: #54494b; -fx-background-color: #f1f7ed; -fx-font-family: Georgia; ");
             TA.setEditable(false);
             stage2.setScene(new Scene(new Pane(TA)));
             stage2.setTitle("DP table and coin sequence");
